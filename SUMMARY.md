@@ -5,4 +5,5 @@
 * [Tokens](tokens.md)
 * [Network](network.md)
 * [Pair](pair.md)
+* [Router](router.md)
 
