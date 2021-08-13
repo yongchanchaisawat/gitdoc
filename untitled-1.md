@@ -100,10 +100,6 @@ See the ~~**whitepaper**~~.
 ### Interface
 
 ```text
-
-```
-
-```text
 pragma solidity =0.5.16;
 
 import './interfaces/IPancakePair.sol';
