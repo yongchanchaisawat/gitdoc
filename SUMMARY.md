@@ -5,5 +5,7 @@
 * [Tokens](tokens.md)
 * [Network](network.md)
 * [Pair](pair.md)
-* [Router](router.md)
+* [Router01](router.md)
+* [Router02](router02.md)
+* [Masterchef](masterchef.md)
 
