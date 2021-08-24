@@ -1,4 +1,4 @@
-# Untitled
+# Router Main
 
 ### Code
 
@@ -343,13 +343,13 @@ Receive an exact amount of tokens for as little ~~ETH~~ as possible, along the r
 
 | Name | Type |  |
 | :--- | :--- | :--- |
-| amountOut | `uint` | The amount of tokens to receive. |
-| `msg.value` \(amountInMax\) | `uint` | The maximum amount of ETH that can be required before the transaction reverts. |
-| path | `address[ ] calldata` |  An array of token addresses. `path.length` must be &gt;= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
-| to | `address` | Recipient of the output tokens. |
-| deadline | `uint` | Unix timestamp after which the transaction will revert. |
+| amountOut | `uint` |  |
+| `msg.value` \(amountInMax\) | `uint` |  |
+| path | `address[ ] calldata` |  |
+| to | `address` |  |
+| deadline | `uint` |  |
 |  |  |  |
-| amounts | `uint[ ] memory` | The input token amount and all subsequent output token amounts. |
+| amounts | `uint[ ] memory` |  |
 
 ### quote
 
@@ -482,4 +482,6 @@ interface IPancakeRouter01 {
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
 }
 ```
+
+
 
